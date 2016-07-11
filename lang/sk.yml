@@ -520,7 +520,7 @@ sk:
     EDITPERMISSIONS_HELP: 'Schopnosť upravovať právomoci a IP adresi pre skupinu. Vyžaduje prístup do sekcie "Bezpečnosť".'
     GROUPNAME: 'Názov skupiny'
     IMPORTGROUPS: 'Importovať skupiny'
-    IMPORTUSERS: 'Importovať požívateľov'
+    IMPORTUSERS: 'Importovať používateľov'
     MEMBERS: Členovia
     MENUTITLE: Bezpečnosť
     MemberListCaution: 'Upozornenie: Odstránenie členov z tohto zoznamu ich odstráni zo všetkých skupín a databázy.'
