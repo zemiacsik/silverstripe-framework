@@ -168,7 +168,7 @@ sk:
     SINGULARNAME: 'Heslo člena'
   SilverStripe\Security\PasswordValidator:
     LOWCHARSTRENGTH: 'Prosím posilnite heslo pridaním z týchto niektorých znakov: {chars}'
-    PREVPASSWORD: 'Už ste použili toto heslo v minulosti, vyberte nové hoslo, prosím'
+    PREVPASSWORD: 'Už ste použili toto heslo v minulosti, vyberte nové heslo, prosím'
     TOOSHORT: 'Heslo je príliš krátke, musí byť {minimum} alebo viacej znakov dlhé'
   SilverStripe\Security\Permission:
     AdminGroup: Administrátor
