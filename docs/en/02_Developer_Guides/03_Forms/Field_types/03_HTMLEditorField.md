@@ -172,7 +172,7 @@ The default setting for the CMS's `extended_valid_elements` we are overriding he
 
 ## Writing custom plugins
 
-It is also possible to add custom plugins to TinyMCE, for example toolbar buttons.
+It is also possible to add custom plugins to TinyMCE, for example toolbar buttons (do not forget to adding them after enabling a plugin).
 You can enable them through [HtmlEditorConfig::enablePlugins()](api:SilverStripe\Forms\HTMLEditor\HtmlEditorConfig::enablePlugins()):
 
 **app/_config.php**
@@ -181,7 +181,7 @@ You can enable them through [HtmlEditorConfig::enablePlugins()](api:SilverStripe
 HtmlEditorConfig::get('cms')->enablePlugins(['myplugin' => '../../../app/javascript/myplugin/editor_plugin.js']);
 ```
 
-You can learn how to [create a plugin](http://www.tinymce.com/wiki.php/Creating_a_plugin) from the TinyMCE documentation.
+You can learn how to [create a plugin](https://www.tiny.cloud/docs-4x/advanced/creating-a-plugin/) from the TinyMCE documentation.
 
 ## Image and media insertion
 
