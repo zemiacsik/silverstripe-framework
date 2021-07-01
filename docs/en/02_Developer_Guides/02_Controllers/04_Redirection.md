@@ -15,6 +15,7 @@ HTTP header.
 ```php
 $this->redirect('goherenow');
 // redirect to Page::goherenow(), i.e on the contact-us page this will redirect to /contact-us/goherenow/
+// 'goherenow' has to be listed in $allowed_actions
 
 $this->redirect('goherenow/');
 // redirect to the URL on yoursite.com/goherenow/. (note the trailing slash)
